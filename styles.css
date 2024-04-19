@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(215, 28%, 17%);
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+/* Hero Content */
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(252, 100%, 63%);
+    width: 100%;
+    padding: 1.5em;
+}
+
+.hero-content h1, input {
+    margin-bottom: 16px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+
+.input-container input {
+    background: transparent;
+    color: hsl(0, 0%, 100%);
+    font-size: 58px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid hsl(256, 100%, 79%);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.input-container button {
+    border: none;
+    border-radius: 5px;
+    padding: 8px 0;
+    width: 100%;
+}
+
+/* Conversion Content */
+
+.conversion-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conversion-content {
+    margin: 40px 0;
+}
+
+.conversion-content h4 {
+    color: hsl(251, 100%, 88%);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.conversion-content p {
+    font-size: 14px;
+}
+
+.length, .volume, .mass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #273549;
+    border-top-left-radius: 5px;
+    margin: 20px 0;
+    padding: 20px 80px;
+    line-height: 2
+}
+

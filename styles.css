@@ -26,6 +26,11 @@ body {
     margin-bottom: 20px;
 }
 
+.hero-content h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
 .input-container {
     display: flex;
     flex-direction: column;
@@ -62,7 +67,7 @@ body {
 }
 
 .conversion-content {
-    margin: 40px 0;
+    margin: 20px 0;
 }
 
 .conversion-content h4 {
